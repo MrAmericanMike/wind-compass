@@ -2,11 +2,12 @@
 
 # WindCompass
 
-Wind direction from degree to compass point
+Wind coming from direction from degree to compass point
 
 ## Description:
 
-Convert wind directions (in degrees) to compass points with short/long formats and internationalization for localized names.
+Convert wind coming from direction (in degrees) to compass points with short/long formats and internationalization for localized names.
+Example: 0 degrees is North, 90 degrees is East, 180 degrees is South, and 270 degrees is West.
 
 ---
 
@@ -21,7 +22,7 @@ npm install wind-compass
 ### Usage:
 
 ```js
-const WindCompass = require("wind-compass");
+import WindCompass from "wind-compass";
 
 const WC = new WindCompass();
 
@@ -84,10 +85,7 @@ const spanishShortFormat = {
 };
 
 // Create an instance of WindCompass with Spanish internationalization
-const WC = new WindCompass({
-	longFormat: spanishLongFormat,
-	shortFormat: spanishShortFormat
-});
+const WC = new WindCompass(spanishLongFormat, spanishShortFormat);
 
 // Example usage
 console.log(WC.getLongWindDirection(45)); // Nordeste
