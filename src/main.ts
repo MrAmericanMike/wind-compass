@@ -145,4 +145,7 @@ class WindCompass {
 	}
 }
 
+if (typeof module !== "undefined" && module.exports) {
+	module.exports = WindCompass;
+}
 export default WindCompass;
