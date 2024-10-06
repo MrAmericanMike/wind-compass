@@ -1,18 +1,25 @@
 {
 	"name": "wind-compass",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Convert wind directions (in degrees) to compass points with short/long formats and internationalization for localized names.",
-	"main": "lib/main.js",
-	"types": "lib/main.d.ts",
 	"author": "MrAmericanMike",
+	"main": "dist/main.cjs",
+	"module": "dist/main.mjs",
+	"types": "dist/main.d.ts",
+	"exports": {
+		".": {
+			"require": "./dist/main.cjs",
+			"import": "./dist/main.mjs"
+		}
+	},
 	"scripts": {
-		"tsc": "tsc",
+		"build": "unbuild",
 		"test": "vitest",
 		"coverage": "vitest run --coverage",
-		"prepublishOnly": "pnpm run tsc"
+		"prepublishOnly": "pnpm run build"
 	},
 	"files": [
-		"lib/**/*",
+		"dist/**/*",
 		"package.json",
 		"README.md"
 	],
