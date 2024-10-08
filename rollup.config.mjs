@@ -11,7 +11,7 @@ export default {
 			exports: "auto"
 		},
 		{
-			file: "dist/main.esm.js",
+			file: "dist/main.mjs",
 			format: "es"
 		},
 		{
