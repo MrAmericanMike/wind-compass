@@ -1,7 +1,7 @@
 {
 	"include": [
-		"build.config.ts",
-		"src"
+		"src/**/*",
+		"rollup.config.mjs",
 	],
 	"compilerOptions": {
 		"outDir": "dist",
@@ -10,7 +10,7 @@
 		"moduleResolution": "Node",
 		"strict": true,
 		"skipLibCheck": true,
-		"declaration": false,
+		"declaration": true,
 		"sourceMap": false,
 		"noUnusedLocals": true,
 		"esModuleInterop": true
