@@ -1,12 +1,8 @@
 {
-	"include": [
-		"src/**/*",
-		"rollup.config.mjs",
-	],
 	"compilerOptions": {
 		"outDir": "dist",
-		"target": "ES2020",
-		"module": "ES2020",
+		"target": "ES2016",
+		"module": "ESNext",
 		"moduleResolution": "Node",
 		"strict": true,
 		"skipLibCheck": true,
@@ -15,6 +11,10 @@
 		"noUnusedLocals": true,
 		"esModuleInterop": true
 	},
+	"include": [
+		"src/**/*",
+		"rollup.config.mjs",
+	],
 	"exclude": [
 		"dist",
 		"tests/**/*.test.ts"

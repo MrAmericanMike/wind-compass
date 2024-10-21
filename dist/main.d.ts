@@ -1,5 +1,5 @@
 import { CompassPoints } from "./types";
-export default class WindCompass {
+export declare class WindCompass {
     private static DIRECTIONS;
     private LONG_FORMAT;
     private SHORT_FORMAT;

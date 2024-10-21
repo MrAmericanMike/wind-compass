@@ -142,4 +142,4 @@ WindCompass.DIRECTIONS = [
     { range: [348.75, 360], point: "N" }
 ];
 
-module.exports = WindCompass;
+exports.WindCompass = WindCompass;
