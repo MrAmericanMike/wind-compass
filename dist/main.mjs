@@ -140,4 +140,4 @@ WindCompass.DIRECTIONS = [
     { range: [348.75, 360], point: "N" }
 ];
 
-export { WindCompass };
+export { WindCompass as default };
