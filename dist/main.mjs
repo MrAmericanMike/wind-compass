@@ -141,3 +141,4 @@ WindCompass.DIRECTIONS = [
 ];
 
 export { WindCompass as default };
+//# sourceMappingURL=main.mjs.map

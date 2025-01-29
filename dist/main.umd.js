@@ -149,3 +149,4 @@
     return WindCompass;
 
 }));
+//# sourceMappingURL=main.umd.js.map

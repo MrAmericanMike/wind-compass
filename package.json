@@ -1,6 +1,6 @@
 {
 	"name": "wind-compass",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"description": "Convert wind directions (in degrees) to compass points with short/long formats and internationalization for localized names.",
 	"author": "MrAmericanMike",
 	"main": "dist/main.cjs",

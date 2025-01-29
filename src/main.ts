@@ -1,6 +1,6 @@
 import { CompassPoints, FormatType, WindDirectionRange } from "./types";
 
-export default class WindCompass {
+class WindCompass {
 	private static DIRECTIONS: WindDirectionRange[] = [
 		{ range: [0, 11.25], point: "N" },
 		{ range: [11.25, 33.75], point: "NNE" },
@@ -144,3 +144,5 @@ export default class WindCompass {
 		}
 	}
 }
+
+export default WindCompass;

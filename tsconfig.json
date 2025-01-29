@@ -1,13 +1,13 @@
 {
 	"compilerOptions": {
 		"outDir": "dist",
-		"target": "ES2016",
+		"target": "ES2020",
 		"module": "ESNext",
 		"moduleResolution": "Node",
 		"strict": true,
 		"skipLibCheck": true,
 		"declaration": true,
-		"sourceMap": false,
+		"sourceMap": true,
 		"noUnusedLocals": true,
 		"esModuleInterop": true
 	},

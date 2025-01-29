@@ -143,3 +143,4 @@ WindCompass.DIRECTIONS = [
 ];
 
 module.exports = WindCompass;
+//# sourceMappingURL=main.cjs.map
