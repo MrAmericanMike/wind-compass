@@ -13,14 +13,14 @@ export default {
 		},
 		{
 			file: "dist/main.mjs",
-			format: "es",
+			format: "esm",
 			sourcemap: true
 		},
 		{
 			file: "dist/main.umd.js",
 			format: "umd",
 			name: "WindCompass",
-			exports: "auto",
+			exports: "default",
 			sourcemap: true
 		}
 	]

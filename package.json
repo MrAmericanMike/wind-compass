@@ -1,6 +1,6 @@
 {
 	"name": "wind-compass",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"description": "Convert wind directions (in degrees) to compass points with short/long formats and internationalization for localized names.",
 	"author": "MrAmericanMike",
 	"main": "dist/main.cjs",
@@ -17,6 +17,12 @@
 		"package.json",
 		"README.md"
 	],
+	"exports": {
+		"import": "./dist/main.mjs",
+		"require": "./dist/main.cjs",
+		"umd": "./dist/main.umd.js",
+		"types": "./dist/main.d.ts"
+	},
 	"keywords": [
 		"wind compass",
 		"wind",
