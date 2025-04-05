@@ -1,20 +1,15 @@
 {
 	"compilerOptions": {
-		"outDir": "dist",
-		"target": "ES2020",
-		"module": "ESNext",
-		"moduleResolution": "Node",
-		"strict": true,
-		"skipLibCheck": true,
+		"target": "ES2016",
+		"module": "CommonJS",
+		"rootDir": "./src",
 		"declaration": true,
-		"sourceMap": true,
-		"noUnusedLocals": true,
-		"esModuleInterop": true
+		"outDir": "./dist",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true
 	},
-	"include": [
-		"src/**/*",
-		"rollup.config.mjs",
-	],
 	"exclude": [
 		"dist",
 		"tests/**/*.test.ts"
